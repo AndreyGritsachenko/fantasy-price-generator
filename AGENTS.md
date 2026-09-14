@@ -190,11 +190,13 @@ Before completing a task:
 
 \- inspect git status;
 
-\- inspect git diff;
+\- stage intended changes with `git add .`;
 
-\- avoid unrelated changes.
+\- inspect `git diff --staged`;
 
+\- verify no unrelated files are staged;
 
+\- do not commit unless explicitly requested.
 
 Do not commit changes unless explicitly requested.
 
